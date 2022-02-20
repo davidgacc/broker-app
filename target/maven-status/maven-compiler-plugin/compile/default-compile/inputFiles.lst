@@ -1,0 +1,8 @@
+/home/david/app/src/main/java/com/example/Application/model/Broker.java
+/home/david/app/src/main/java/com/example/Application/services/BrokerService.java
+/home/david/app/src/main/java/com/example/Application/exceptions/BrokerExceptionHandler.java
+/home/david/app/src/main/java/com/example/Application/controller/BrokerController.java
+/home/david/app/src/main/java/com/example/Application/dao/BrokerDAO.java
+/home/david/app/src/main/java/com/example/Application/repository/BrokerRepository.java
+/home/david/app/src/main/java/com/example/Application/Application.java
+/home/david/app/src/main/java/com/example/Application/exceptions/StatusException.java
