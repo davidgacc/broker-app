@@ -1,6 +1,5 @@
-package com.example.Application.dao;
+package com.example.Application.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -9,7 +8,7 @@ import java.util.Date;
 
 @Data
 @Builder
-public class BrokerDAO {
+public class BrokerDTO {
 
     private BigInteger id;
     private String name;

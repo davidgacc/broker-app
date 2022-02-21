@@ -1,6 +1,6 @@
 package com.example.Application.controller;
 
-import com.example.Application.dao.BrokerDAO;
+import com.example.Application.dto.BrokerDTO;
 import com.example.Application.services.BrokerService;
 import com.example.Application.exceptions.StatusException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class BrokerController {
     private BrokerService brokerService;
 
     @GetMapping(value = "/{document}",  produces = "application/json")
-    public ResponseEntity<BrokerDAO> getData(@PathVariable(value = "document")  Long document) throws StatusException {
+    public ResponseEntity<BrokerDTO> getData(@PathVariable(value = "document")  Long document) throws StatusException {
         try {
             return ResponseEntity.ok(brokerService.getBroker(document).get());
         }catch (StatusException statusException) {
